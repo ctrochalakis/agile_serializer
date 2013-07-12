@@ -1,6 +1,6 @@
 module AgileSerializer
 
-  if defined?(Rails) and Rails::VERSION::MAJOR == 3
+  if defined?(Rails) and Rails::VERSION::MAJOR >= 3
     require 'agile_serializer/railtie'
   end
 

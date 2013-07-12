@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.description       = "A fork of serializer_with_options enabling deep serializer and other features"
 
-  s.add_dependency "activesupport", "~> 3.0"
-  s.add_dependency "railties",      "~> 3.0"
+  s.add_dependency("activesupport", ">= 3.0", "< 4.1")
+  s.add_dependency("railties", ">= 3.0", "< 4.1")
 end
