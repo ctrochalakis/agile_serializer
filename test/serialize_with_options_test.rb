@@ -122,11 +122,11 @@ class SerializeWithOptionsTest < Minitest::Test
       end
 
       should "exclude specified attributes" do
-        assert_equal nil, @user_hash["email"]
+        assert_nil @user_hash["email"]
       end
 
       should "exclude attributes not in :only list" do
-        assert_equal nil, @post_hash["content"]
+        assert_nil @post_hash["content"]
       end
 
       should "include specified associations" do

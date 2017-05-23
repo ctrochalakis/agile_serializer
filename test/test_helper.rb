@@ -53,3 +53,4 @@ ActiveRecord::Base.connection.create_table :reviews do |t|
   t.string :reviewable_type
 end
 
+ActiveSupport.test_order = :random
