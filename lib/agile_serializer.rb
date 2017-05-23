@@ -1,6 +1,6 @@
 module AgileSerializer
 
-  if defined?(Rails) and Rails::VERSION::MAJOR >= 3
+  if defined?(Rails)
     require 'agile_serializer/railtie'
   end
 
@@ -42,13 +42,7 @@ module AgileSerializer
             hash.merge(class_name)
           else
             begin
-              reflection_key = if defined?(Rails) && Rails::VERSION::MAJOR >= 4 && Rails::VERSION::MINOR >= 2
-                class_name.to_s
-              else
-                class_name
-              end
-
-              true_name = reflections[reflection_key].options[:class_name] || class_name
+              true_name = reflections[class_name.to_s].options[:class_name] || class_name
               klass = true_name.to_s.classify.constantize
               hash[class_name] = klass.serialization_options(set)
               hash
