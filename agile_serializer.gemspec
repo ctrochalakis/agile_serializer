@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency("railties", ">= 3.0", "< 5")
 
   s.add_development_dependency 'activerecord', ">= 3.0", "< 4.1"
+  s.add_development_dependency 'test-unit'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'shoulda'
   s.add_development_dependency 'json'
