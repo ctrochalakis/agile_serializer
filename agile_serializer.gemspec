@@ -19,4 +19,11 @@ Gem::Specification.new do |s|
 
   s.add_dependency("activesupport", ">= 3.0", "< 5")
   s.add_dependency("railties", ">= 3.0", "< 5")
+
+  s.add_development_dependency 'activerecord', ">= 3.0", "< 4.1"
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'shoulda'
+  s.add_development_dependency 'json'
+  s.add_development_dependency 'turn'
+  s.add_development_dependency 'awesome_print'
 end
