@@ -89,7 +89,7 @@ class CheckIn < ActiveRecord::Base
   end
 end
 
-class SerializeWithOptionsTest < Test::Unit::TestCase
+class SerializeWithOptionsTest < Minitest::Test
   def json(obj, opts={})
     obj.as_json(opts).with_indifferent_access
   end

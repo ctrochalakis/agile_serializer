@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'shoulda'
   s.add_development_dependency 'json'
-  s.add_development_dependency 'turn'
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'minitest-color'
+  s.add_development_dependency 'minitest-focus'
   s.add_development_dependency 'awesome_print'
 end
