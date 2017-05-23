@@ -17,6 +17,16 @@ Gem::Specification.new do |s|
 
   s.description       = "A fork of serializer_with_options enabling deep serializer and other features"
 
-  s.add_dependency("activesupport", ">= 3.0", "< 5")
-  s.add_dependency("railties", ">= 3.0", "< 5")
+  s.add_dependency("railties", ">= 4.2", "< 6")
+
+  s.add_development_dependency 'activerecord', ">= 4.2", "< 6"
+  s.add_development_dependency 'test-unit'
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'shoulda'
+  s.add_development_dependency 'json'
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'minitest-color'
+  s.add_development_dependency 'minitest-focus'
+  s.add_development_dependency 'awesome_print'
+  s.add_development_dependency 'appraisal'
 end

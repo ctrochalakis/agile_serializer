@@ -2,7 +2,9 @@ require 'bundler/setup'
 
 require 'logger'
 require 'active_record'
-require 'turn'
+require "minitest/autorun"
+require "minitest/color"
+require "minitest/focus"
 require 'shoulda'
 require 'json'
 require 'ap'
@@ -51,3 +53,4 @@ ActiveRecord::Base.connection.create_table :reviews do |t|
   t.string :reviewable_type
 end
 
+ActiveSupport.test_order = :random
