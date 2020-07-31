@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     agile_serializer (0.0.14)
-      railties (>= 4.2, < 6)
+      railties (>= 5.1, < 6)
 
 GEM
   remote: https://rubygems.org/
@@ -87,7 +87,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (>= 4.2, < 6)
+  activerecord (>= 5.1, < 6)
   agile_serializer!
   appraisal
   awesome_print
