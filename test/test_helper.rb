@@ -5,7 +5,7 @@ require 'active_record'
 require "minitest/autorun"
 require "minitest/color"
 require "minitest/focus"
-require 'shoulda'
+require 'shoulda-context'
 require 'json'
 require 'ap'
 
