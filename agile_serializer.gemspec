@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'shoulda-context'
   s.add_development_dependency 'json'
   s.add_development_dependency 'minitest'
-  s.add_development_dependency 'minitest-color'
   s.add_development_dependency 'minitest-focus'
   s.add_development_dependency 'awesome_print'
   s.add_development_dependency 'appraisal'
