@@ -2,7 +2,7 @@ PATH
   remote: ..
   specs:
     agile_serializer (0.0.14)
-      railties (>= 5.1, < 6)
+      railties (>= 5.1, < 6.1)
 
 GEM
   remote: https://rubygems.org/
