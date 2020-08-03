@@ -6,7 +6,6 @@ require "minitest/autorun"
 require "minitest/focus"
 require 'shoulda-context'
 require 'json'
-require 'ap'
 
 lib = File.expand_path('../../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)

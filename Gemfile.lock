@@ -36,7 +36,6 @@ GEM
       rake
       thor (>= 0.14.0)
     arel (8.0.0)
-    awesome_print (1.7.0)
     builder (3.2.3)
     concurrent-ruby (1.0.5)
     erubi (1.6.0)
@@ -83,7 +82,6 @@ DEPENDENCIES
   activerecord (>= 5.1, < 6)
   agile_serializer!
   appraisal
-  awesome_print
   json
   minitest
   minitest-focus
