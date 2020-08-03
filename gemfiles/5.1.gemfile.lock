@@ -90,7 +90,7 @@ DEPENDENCIES
   minitest-focus
   railties (~> 5.1.6.2)
   shoulda-context
-  sqlite3
+  sqlite3 (~> 1.3.13)
   test-unit
 
 BUNDLED WITH

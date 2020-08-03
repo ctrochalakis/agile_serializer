@@ -86,7 +86,7 @@ DEPENDENCIES
   minitest
   minitest-focus
   shoulda-context
-  sqlite3
+  sqlite3 (~> 1.3.13)
   test-unit
 
 BUNDLED WITH
