@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.version           = AgileSerializer::VERSION
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = "Enhanced serialize options for rails, forked from serialize_with_options"
-  s.homepage          = "http://github.com/ctrochalakis/agile_serializer"
-  s.email             = "yatiohi@ideopolis.gr"
-  s.authors           = [ "Christos Trochalakis" ]
+  s.homepage          = "http://github.com/skroutz/agile_serializer"
+  s.email             = "dev@skroutz.gr"
+  s.authors           = [ "Skroutz Development Team" ]
   s.has_rdoc          = false
 
   s.files             = %w( README.markdown Rakefile MIT-LICENSE )
