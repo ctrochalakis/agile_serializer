@@ -14,3 +14,8 @@ appraise "6.0" do
   gem 'railties', "~> 6.0.3.2"
   gem 'activerecord', "~> 6.0.3.2"
 end
+
+appraise "6.1" do
+  gem 'railties', "~> 6.1.3.1"
+  gem 'activerecord', "~> 6.1.3.1"
+end

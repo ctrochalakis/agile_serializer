@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
 
   s.description       = "A fork of serializer_with_options enabling deep serializer and other features"
 
-  s.add_dependency("railties", ">= 5.1", "< 6.1")
+  s.add_dependency("railties", ">= 5.1", "< 7")
 
-  s.add_development_dependency 'activerecord', ">= 5.1", "< 6.1"
+  s.add_development_dependency 'activerecord', ">= 5.1", "< 7"
   s.add_development_dependency 'test-unit'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'shoulda-context'
